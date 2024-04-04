@@ -1,16 +1,13 @@
 headers = {
     "Content-Type": "application/json"
 }
-
 user_body = {
     "firstName": "Andrea",
     "phone": "+11234567890",
     "address": "123 Elm Street, Hilltop"
 }
-
 def get_kit_body(name):
     return kit_bodies[name].copy()
-
 kit_bodies = {
     "one_char": {"name": "a"},
     "max_char": {"name": "AbcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdAbcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabC"},
@@ -21,9 +18,4 @@ kit_bodies = {
     "numbers": {"name":"123"},
     "no_param": {},
     "dif_param": {"name":123}
-
-
-
-
-
 }
